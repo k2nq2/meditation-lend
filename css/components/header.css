@@ -236,11 +236,11 @@ h1 .accent {
 background-color: #5101b7;
 stroke-width: 1px;
 stroke: #681acc;
-position: absolute;
+position: relative;
 width: 7.8rem;
 height: 7.8rem;
-top: 14rem;
-left: 4rem;
+top: -28rem;
+left: 2rem;
 display: flex;
     align-items: center;
     justify-content: center;
