@@ -1,0 +1,125 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Forum", sans-serif;
+    --third-family: "Steelfish", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    font: 400 2.636185981vw var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+}
+
+body {
+    background-color: #000;
+    max-width: 428px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    position: relative;
+    z-index: -1;
+}
+.container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    margin: 0 auto;
+}
+.selection {
+    justify-content: center;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+    display: grid;
+
+}
+.head-text{
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    text-transform: uppercase;
+
+}
+.second-head-text{
+    font-family: var(--font-family), sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+}
+.bg{
+    position: absolute;
+
+}
+.head img{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0;
+    margin-top: 6rem;
+    max-width: 428px;
+}
+.head {
+    padding-top: 2.3rem;
+
+    padding-bottom: 4rem;
+    position: relative;
+    z-index: -2;
+}
+footer {
+    margin-top: 10rem !important;
+    margin-bottom: 19rem !important;
+}
+
+footer .top-text {
+    margin-bottom: 1.7rem;
+    color: white;
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+footer .middle-text {
+    margin-bottom: 1.5rem;
+    color: white;
+    font-family: var(--content-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+footer .gray {
+    color: #A6A6A6;
+    font-family: var(--content-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
